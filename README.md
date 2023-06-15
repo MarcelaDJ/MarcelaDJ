@@ -17,11 +17,11 @@ Here are some ideas to get you started:
 
 ## About me:
 
-- 🔭 I’m currently working on [App Taxis Libres Pasajeros](https://play.google.com/store/apps/details?id=com.cotech.taxislibres), [Bimoney](https://play.google.com/store/apps/details?id=com.modipay.bimoney) and [Taxitaximetro](https://play.google.com/store/apps/details?id=com.taximetro.spia)
+- 🔭 I’m Android Mobile Developer; currently working on [App Taxis Libres Pasajeros](https://play.google.com/store/apps/details?id=com.cotech.taxislibres), [App Taxis Libres Conductor](https://play.google.com/store/apps/details?id=com.taxislibres.conductor&hl=es_419&gl=US) and [Bimoney](https://play.google.com/store/apps/details?id=com.modipay.bimoney). In the past i contributed to the apps: [Taxitaximetro](https://play.google.com/store/apps/details?id=com.taximetro.spia) and [Vango](https://play.google.com/store/apps/details?id=com.ionverse.vangoconductor&hl=es_419&gl=US)
 
-- 🌱 I’m currently learning **Mobile application development, Video Games develop in Unity**
+- 🌱 I’m currently learning and improving **Mobile application development, Video Games develop in Unity**
 
-- 👯 I’m looking to collaborate on **Nasa, Spacex**
+- 👯 I’m looking to collaborate on ✨ **Nasa, Spacex, Ankama Games or Netmarble** :wink: ✨
 
 - 👨‍💻 All of my projects are available at [https://marceladj.github.io/](https://marceladj.github.io/)
 
