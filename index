@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html lang="en_US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="MarcelaDJ's portfolio">
+    <meta name="keywords" content="portafolio,marcela dueñas jimenez,MarcelaDJ, mechatronic engineer,
+android developer">
+    <meta name="author" content="MarcelaDJ">
+    <meta name="google" content="notranslate" />
+    <meta property="og:title" content="MarcelaDJ, Mechatronic Engineer, Android Developer">
+    <meta property="og:description" content="Hi I'm a Mechatronic Engineer and Android Developer 
+    and enthusiast for technology, video games, Japanese culture and of course Cats ='v'=.">
+
+    <title>MarcelaDJ</title>
+    <link rel="icon" href="src/icons/miauchis_color.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans|Schoolbell&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main_styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e92fa48c98.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147891800-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-147891800-1');
+    </script>
+</head>
+
+<body class="body-page">
+    <!-- Main Hero -->
+    <section class="hero hero-princ is-fullheight">
+        <div class="hero-body">
+            <div class="lang-div">
+                <select id="lang-opt" onchange="selectLan(this)">
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                </select>
+            </div>
+            <div class="container hero-princ-container is-flex f-d-col center-y">
+                <img class="gif-animated" src="src/gif/tenor.gif" alt="cohete gif">
+                <div class="hero-princ-content is-flex f-d-col center-y text">
+                    <h1 class="title has-text-white has-text-centered">
+                        Marcela Dueñas Jiménez
+                    </h1>
+                    <h2 class="subtitle has-text-grey-lighter">
+                        Mechatronic Engineer, Android Developer
+                    </h2>
+                </div>
+                <div class="social-media">
+                    <ul class="col is-flex">
+                        <li class="li-smedia">
+                            <a href="https://www.linkedin.com/in/marcela-dueñas-a183371a1" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="li-smedia">
+                            <a href="https://github.com/MarcelaDJ" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hero-princ-footer">
+            <div class="container">
+                <ul class="menu is-flex center-x">
+                    <a href="#about" class="no-deco">
+                        <li class="en-opt">About</li>
+                        <li class="es-opt">Acerca</li>
+                    </a>
+                    <li>/</li>
+                    <a href="#skills" class="no-deco">
+                        <li class="en-opt">Skills</li>
+                        <li class="es-opt">Habilidades</li>
+                    </a>
+                    <li>/</li>
+                    <a href="#education" class="no-deco">
+                        <li class="en-opt">Education</li>
+                        <li class="es-opt">Formación</li>
+                    </a>
+                    <li>/</li>
+                    <a href="#projects" class="no-deco">
+                        <li class="en-opt">Projects</li>
+                        <li class="es-opt">Proyectos</li>
+                    </a>
+                    <li>/</li>
+                    <a href="#contact" onclick="toContact()" class="no-deco">
+                        <li class="en-opt">Contact</li>
+                        <li class="es-opt">Contacto</li>
+                    </a>
+                </ul>
+                <ul>
+                    <a href="#contact" class="freepick">
+                        <li>Photo: Nasa</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="hero about" id="about">
+        <div class="columns about-columns">
+            <div class="column about col-1 is-flex center-y center-x">
+                <h1 class="title is-1 has-text-white en-opt">About Me</h1>
+                <h1 class="title is-1 has-text-white es-opt">Acerca de mí</h1>
+                <ul>
+                    <a href="#contact" class="freepick">
+                        <li>Designed by Freepick</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="column about col-2">
+                <div class="about-content">
+                    <h3 class="subtitle is-3 en-opt">Welcome! </h3>
+                    <h3 class="subtitle is-3 es-opt">Bienvenidos! </h3>
+
+                    <img id="playing" src="src/images/about/me_hello.png" alt="abut me">
+                    <h5 class="subtitle is-5 en-opt">
+                        I'm a Mechatronic Engineer graduated from the San Buenaventura University, in Bogotá. Currently
+                        i work as an Android Developer. I really love technology, astronomy, robotics, video games,
+                        Japanese culture, foreign languages, cats, and i also love learning.
+                    </h5>
+                    <h5 class="subtitle is-5 es-opt">
+                        Soy Ingeniera Mecatrónica egresada de la Universidad de San Buenaventura Bogotá, actualmente me
+                        desempeño como Desarrolladora de Android. Me apasiona la tecnologia, la astonomia, la robotica,
+                        los video juegos, la cultura japonesa, idiomas, los gatos y
+                        aprender.
+                    </h5>
+                    <img id="learning" src="src/images/about/me_learing.png" alt="abut me">
+                    <h5 class="subtitle is-5 en-opt">
+                        One of my goals is to be able to arrive to the outer space or contribute in the construction of
+                        an interplanetary spaceship, also take part in the construction of a robot or nanobot for space
+                        missions, I would like that, through code generated by me,
+                        to achieve a huge scientific discovery or maybe, being invited by Elon Musk, to be able to
+                        become part of his great engineering team work, in order to build a human colony on Mars.
+                    </h5>
+                    <h5 class="subtitle is-5 es-opt">
+                        Mi meta es llegar al espacio, ya sea contribuyendo en la construcción de una nave
+                        interplanetaria, en la contrucción de un robot o nanobot en una mision espacial, o a traves de
+                        código generado por mi para un gran descubrimiento de la ciencia o invitada
+                        por Elon Musk como parte de su equipo de ingenieria para construir su colonia en Marte. <br>
+                    </h5>
+                    <img id="home" src="src/images/about/me_house.png" alt="abut me">
+                    <h5 class="subtitle is-5 en-opt">
+                        Currently i'm improve my knowledge in the mobile app development and the Videogames development.
+                    </h5>
+                    <h5 class="subtitle is-5 es-opt">
+                        Actualmente estoy mejorando mis conocimientos en el desarrollo de apps moviles y el desarrollo
+                        de Videojuegos.
+                    </h5>
+                    <h6 class="subtitle is-6 read-more en-opt" id="about-read-more" onclick="openReadMore(this.id)">
+                        Read More...
+                    </h6>
+                    <h6 class="subtitle is-6 read-more es-opt" id="about-read-more" onclick="openReadMore(this.id)">
+                        Leer más ...
+                    </h6>
+                    <div id="about-read-more-section" class="read-more-section">
+
+                        <h5 class="subtitle is-5 en-opt">
+                            In my free time i like to search info about NASA, Space X or documentaries and scientific
+                            popularizers in areas like physics and astronomy; they update me, inspire me y and remind me
+                            all this dreams i musn't leave behind. Also i have been learning Japanese
+                            trought Doulingo app.
+                        </h5>
+                        <h5 class="subtitle is-5 es-opt">
+                            En mi tiempo libre me gusta buscar información o documentales de la NASA , Space X y
+                            divulgadores científicos en áreas como física y astronomía; me mantienen al día , me
+                            inspiran y me recuerdan todos aquellos sueños que no debo dejar atrás. Tambien he
+                            estado aprendiendo Japones a traves de apps como Duolingo.
+                        </h5>
+
+                        <!-- 
+ <h6 class="subtitle is-6 en-opt">
+                        When I'm free I go to music fairs to listen to bands play live too. I have a
+                        <a href="https://www.youtube.com/channel/UCoKBkoGknv8JQOsjcRgs-tw?view_as=subscriber"
+                            target="_blank" rel="noopener noreferrer">YouTube</a>
+                        channel where I upload videos of my favorite bands.
+                    </h6>
+                    <h6 class="subtitle is-6 es-opt">
+                        Cuando estoy libre también me gusta ir a ferias para escuchar a bandas tocar en vivo,
+                        de hecho, tengo un canal de
+                        <a href="https://www.youtube.com/channel/UCoKBkoGknv8JQOsjcRgs-tw?view_as=subscriber"
+                            target="_blank" rel="noopener noreferrer">YouTube</a>
+                        en donde subo videos de mis bandas favoritas entre otras cosas.
+                    </h6>
+
+
+                        <h6 class="subtitle is-6 en-opt">
+                            When I started in the world of programming, one of the first things I did was a small
+                            screen that opened from my computer that asked me for the password that I put in my
+                            pseudocode to open a calculator and for me it was a lot of fun. I felt like a troll
+                            asking for the password to use a simple calculator 👩🏼‍💻, after that and other things that
+                            I did I started to like the tech area because you will always need learning something new,
+                            although sometimes it can be overwhelming, but at the same time fun.
+                        </h6>
+                        <h6 class="subtitle is-6 es-opt">
+                            Cuando comencé en el mundo de la programacion, una de las primeras cosas que hice fue una
+                            pequeña
+                            pantalla que se abría desde mi computadora y me preguntaba por una contraseña, la cual había
+                            puesto en mi pseudocódigo para así poder abrir una calculadora, para mí fue muy divertido
+                            porque
+                            me sentía toda troll pidiendo una contraseña para usar una simple calculadora 👩🏼‍💻,
+                            después de
+                            eso y otras cosas que hice me comenzó a gustar el área de tecnología, porque siempre
+                            necesitarás
+                            aprender algo nuevo, aunque a veces puede ser abrumador, pero al mismo tiempo divertido.
+                        </h6>
+                        <h6 class="subtitle is-6 en-opt">
+                            After seeing pseudocode I used and worked with languages like C ++, PHP,
+                            Python and JS, but more with JS and Python.
+                        </h6>
+                        <h6 class="subtitle is-6 es-opt">
+                            Después de ver pseudocódigo comencé a usar y trabajar con lenguajes como C++, PHP,
+                            Python y JS, pero más con JS y Python.
+                        </h6>
+                        <h6 class="subtitle is-6 en-opt">
+                            I think the best way to practice and learn more is sharing your knowledge with others and
+                            it's very nice to do it 💛, because when I didn't know how to start in the world of
+                            programming,
+                            opinions and advices from others were very useful for me. So, when I see people who don't
+                            know how to start programming, I give them some recommendation or a link to a page so they
+                            can
+                            learn and experiment without fear depending on what they like.
+                        </h6>
+                        <h6 class="subtitle is-6 es-opt">
+                            Yo pienso que la mejor manera de practicar y aprender más es compartir tus conocimientos
+                            con otras personas y es muy bonito hacerlo 💛, porque cuando yo no sabía cómo comenzar en
+                            programación las opiniones y consejos de otros me fue de mucha ayuda.
+                            Por eso, cuando veo a personas que no saben cómo comenzar les doy alguna recomendación o
+                            links a páginas en donde ellos pueden aprender y experimentar sin miedo alguno dependiendo
+                            de lo que les guste.
+                        </h6>
+                        <h6 class="subtitle is-6 en-opt">
+                            Sometimes I volunteer for workshops of organizations like <b>WAWA Laptop</b>,
+                            <b>HackSpace</b>, <b>GIT (Girls Inspire Tech)</b> in Peru. I love being able to help.
+                        </h6>
+                        <h6 class="subtitle is-6 es-opt">
+                            A veces soy voluntaria en talleres de organizaciones como <b>WAWA Laptop</b>,
+                            <b>HackSpace</b>, <b>GIT (Girls Inspire Tech)</b> en Peru. Me encanta poder ayudar como
+                            pueda.
+                        </h6>
+                        <h6 class="subtitle is-6 en-opt">
+                            One of my favorite hobbies is singing, so I like karaokes a lot 🎤, I also like acting,
+                            watching horror and actions movies, going to art expositions and discovering new music.
+                        </h6>
+                        <h6 class="subtitle is-6 es-opt">
+                            Uno de mis hobbies favoritos es cantar, así que me gustan mucho los karaokes 🎤,
+                            También me gusta actuar, ver películas de terror y acción, ir a exposiciones de
+                            arte y descubrir nueva música.
+                        </h6> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section class="hero skills" id="skills">
+        <div class="hero-body">
+            <div class="container skills">
+                <h1 class="title is-1 has-text-centered en-opt">Acquired Skills</h1>
+                <h1 class="title is-1 has-text-centered es-opt">Habilidades adquiridas</h1>
+                <div class="container programming">
+                    <h3 class="title is-3 en-opt">Programming Languages</h3>
+                    <h3 class="title is-3 es-opt">Lenguajes de Programación</h3>
+                    <div class="columns skills">
+
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="Java">
+                                <img src="src/skills_icons/java.png" alt="java image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="80%" data-color="#910000">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="Kotlin">
+                                <img src="src/skills_icons/kotlin_mod.png" alt="kotlin image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="80%" data-color="#00c6ff">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="C++">
+                                <img src="src/skills_icons/cplusplus.png" alt="C++ image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="90%" data-color="#00599C">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="Visual Basic">
+                                <img src="src/skills_icons/visual_basic.png" alt="visual image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="70%" data-color="#4a2e96">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="html 5">
+                                <img src="src/skills_icons/html5.png" alt="html5 image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="40%" data-color="#e34f26">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="CCS 3">
+                                <img src="src/skills_icons/css3.png" alt="css3 image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="40%" data-color="#1572B6">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="javascript">
+                                <img src="src/skills_icons/javascript.png" alt="javascript image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="60%" data-color="#F7DF1E">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column skill is-flex center-y center-x">
+                            <div class="img" data-desc="Python">
+                                <img src="src/skills_icons/python.png" alt="Python image">
+                            </div>
+                            <div class="bar">
+                                <div class="in-progress is-flex center-x" data-val="15%" data-color="#3776AB">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-more-skills is-flex center-x">
+                    <a class="button is-rounded skills-more-btn no-deco" onclick="seeMoreSkills()">
+                        See More
+                    </a>
+                </div>
+                <div class="more-skills d-none">
+                    <div class="container css-tools">
+                        <h3 class="title is-3 en-opt">Softwares & Tools</h3>
+                        <h3 class="title is-3 es-opt">Software y Herramientas</h3>
+                        <div class="columns skills">
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="Android Studio">
+                                    <img src="src/skills_icons/android_studio.png" alt="Android image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="94%" data-color="#93c755">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="GIT">
+                                    <img src="src/skills_icons/git.png" alt="GIT image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="80%" data-color="#F05032">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="Jira">
+                                    <img src="src/skills_icons/jira software-icon-gradient-blue.svg" alt="jira image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="60%" data-color="#1E90FF">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="Slack">
+                                    <svg width="45" height="45" class="c-nav--footer__svgicon c-slackhash" viewBox="0 0 54 54"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g fill="none" fill-rule="evenodd">
+                                            <path
+                                                d="M19.712.133a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386h5.376V5.52A5.381 5.381 0 0 0 19.712.133m0 14.365H5.376A5.381 5.381 0 0 0 0 19.884a5.381 5.381 0 0 0 5.376 5.387h14.336a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386"
+                                                fill="#44BEDF"></path>
+                                            <path
+                                                d="M53.76 19.884a5.381 5.381 0 0 0-5.376-5.386 5.381 5.381 0 0 0-5.376 5.386v5.387h5.376a5.381 5.381 0 0 0 5.376-5.387m-14.336 0V5.52A5.381 5.381 0 0 0 34.048.133a5.381 5.381 0 0 0-5.376 5.387v14.364a5.381 5.381 0 0 0 5.376 5.387 5.381 5.381 0 0 0 5.376-5.387"
+                                                fill="#2EB67D"></path>
+                                            <path
+                                                d="M34.048 54a5.381 5.381 0 0 0 5.376-5.387 5.381 5.381 0 0 0-5.376-5.386h-5.376v5.386A5.381 5.381 0 0 0 34.048 54m0-14.365h14.336a5.381 5.381 0 0 0 5.376-5.386 5.381 5.381 0 0 0-5.376-5.387H34.048a5.381 5.381 0 0 0-5.376 5.387 5.381 5.381 0 0 0 5.376 5.386"
+                                                fill="#ECB22E"></path>
+                                            <path
+                                                d="M0 34.249a5.381 5.381 0 0 0 5.376 5.386 5.381 5.381 0 0 0 5.376-5.386v-5.387H5.376A5.381 5.381 0 0 0 0 34.25m14.336-.001v14.364A5.381 5.381 0 0 0 19.712 54a5.381 5.381 0 0 0 5.376-5.387V34.25a5.381 5.381 0 0 0-5.376-5.387 5.381 5.381 0 0 0-5.376 5.387"
+                                                fill="#E01E5A"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="60%" data-color="#611f69">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="Figma">
+                                    <svg  width="45" height="45" xmlns="http://www.w3.org/2000/svg" class="css-1ty7gog" viewBox="0 0 38 57" aria-label="Homepage">
+                                        <path fill="#1abcfe" d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z"></path>
+                                        <path fill="#0acf83" d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z"></path>
+                                        <path fill="#ff7262" d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z"></path>
+                                        <path fill="#f24e1e" d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z"></path>
+                                        <path fill="#a259ff" d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z"></path>
+                                    </svg>
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="30%" data-color="#000000">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="LabVIEW">
+                                    <img src="src/skills_icons/labview_mod.png" alt="labview image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="90%" data-color="#616366">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="Arduino">
+                                    <img src="src/skills_icons/arduino.png" alt="Arduino image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="90%" data-color="#00979D">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="Solid Edge">
+                                    <img src="src/skills_icons/solid_mod.png" alt="solid image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="90%" data-color="#0071b6">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="MatLab">
+                                    <img src="src/skills_icons/matlab.png" alt="matlab image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="90%" data-color="#cc570f">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column skill is-flex center-y center-x">
+                                <div class="img" data-desc="Multisim">
+                                    <img src="src/skills_icons/Multisim.png" alt="multisim image">
+                                </div>
+                                <div class="bar">
+                                    <div class="in-progress is-flex center-x" data-val="80%" data-color="#282369">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Estudios  -->
+    <section class="hero projects" id="education">
+        <div class="hero-body">
+            <div class="container education">
+                <h1 class="title is-1 has-text-centered en-opt">Education</h1>
+                <h1 class="title is-1 has-text-centered es-opt">Estudios</h1>
+                <div class="container-subclass">
+                    <h3 class="en-opt">Professional</h3>
+                    <h3 class="es-opt">Profesional</h3>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <img src="src/skills_icons/iconos_ingenieria_mecatronica.png" alt="GIT image">
+                        </div>
+                        <div class="grid-item" id="studieitem">
+                            <h4 class="es-opt">Ingenieria Mecatrónica </h4>
+                            <h4 class="en-opt">Mechatronic Engineer</h4>
+                            <p>Universidad de San Buenaventura</p>
+                            <p class="es-opt">Junio 2016</p>
+                            <p class="en-opt">June 2016</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-subclass">
+                    <h3 class="es-opt">Cursos Certificados</h3>
+                    <h3 class="en-opt">Certified courses</h3>
+
+                    <!--Subdivision Lenguajes de programacion-->
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-programacion">Lenguajes de Programación</h3>
+                            <h3 class="en-opt" id="area-title-programming">Programming Languages</h3>
+                            <div class="grid-container" id="area-programacion">
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-curso-introduccion-c.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introducción a C# con .NET 3.1</h4>
+                                    <h4 class="en-opt">Introduction to C# course with .NET 3.1</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Febrero 2022</p>
+                                    <p class="en-opt">Feb 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-firebase-realtime-android.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Kotlin con Firebase Firestore</h4>
+                                    <h4 class="en-opt">Firebase Firestore Kotlin Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Mayo 2021</p>
+                                    <p class="en-opt">May 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-kotlin-desde_Cero.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Kotlin desde cero</h4>
+                                    <h4 class="en-opt">Kotlin Course from Zero</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Mayo 2021</p>
+                                    <p class="en-opt">May 2021</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-kotlin-android.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Kotlin para Android</h4>
+                                    <h4 class="en-opt">Android Kotlin Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Febrero 2021</p>
+                                    <p class="en-opt">February 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-basico-kotlin.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Básico de Kotlin </h4>
+                                    <h4 class="en-opt">Kotlin Basic Couse</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Septiembre 2020</p>
+                                    <p class="en-opt">September 2020</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/cplusplus.png" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Estructura del lenguaje de programacion C++</h4>
+                                    <h4 class="en-opt">Structure of the C ++ programming language</h4>
+                                    <p>SENA</p>
+                                    <p class="es-opt">Octubre 2015</p>
+                                    <p class="en-opt">October 2015</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/cplusplus.png" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Conceptualizacion del lenguaje de programacion C++ </h4>
+                                    <h4 class="en-opt">Conceptualization of the C ++ programming language</h4>
+                                    <p>SENA</p>
+                                    <p class="es-opt">Mayo 2015</p>
+                                    <p class="en-opt">May 2015</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-movile">Desarrollo Aplicaciones Moviles</h3>
+                            <h3 class="en-opt" id="area-title-movile">Mobile Application Development</h3>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-diseno-sistemas-apps-moviles_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Diseño de Software para Apps Móviles</h4>
+                                    <h4 class="en-opt">Software Design Course for Mobile Apps</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Julio 2023</p>
+                                    <p class="en-opt">July 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-salidas-profesionales-mobile_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Audiocurso de Salidas Profesionales para Desarrolladores de
+                                        Aplicaciones Móviles</h4>
+                                    <h4 class="en-opt">Audiocourse on Professional Outings for Mobile Application
+                                        Developers</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Junio 2023</p>
+                                    <p class="en-opt">June 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-introduccion-automatizacion-pruebas_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introducción a la Automatización de Pruebas</h4>
+                                    <h4 class="en-opt">Introduction to Test Automation Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Dic. 2022</p>
+                                    <p class="en-opt">Dec. 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-pruebas-de-software.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Fundamentos de Pruebas de Software</h4>
+                                    <h4 class="en-opt">Software Testing Fundamentals Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Nov. 2022</p>
+                                    <p class="en-opt">Nov. 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/jetpack_compose.jpg" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introducción a Android con Jetpack Compose</h4>
+                                    <h4 class="en-opt">Introduction Course to Android with Jetpack Compose</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Sept. 2022</p>
+                                    <p class="en-opt">Sept. 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/jetpack_compose.jpg" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Básico de Testing en Java</h4>
+                                    <h4 class="en-opt">Basic Testing Course in Java</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Julio 2022</p>
+                                    <p class="en-opt">July 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-dart-desde-cero_badge.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Dart desde Cero</h4>
+                                    <h4 class="en-opt">Dart course from scratch</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Mayo 2022</p>
+                                    <p class="en-opt">May 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-clean-architecture-android.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Clean Architecture en Android</h4>
+                                    <h4 class="en-opt">Android Clean Architecture Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Diciembre 2021</p>
+                                    <p class="en-opt">Dec 2021</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-desarrollo-huawei.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Desarrollo de Aplicaciones con Huawei</h4>
+                                    <h4 class="en-opt">Huawei Development Apps Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Abril 2021</p>
+                                    <p class="en-opt">April 2021</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-arquitectura-android.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Arquitectura de Android</h4>
+                                    <h4 class="en-opt">Android Architecture Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Febrero 2021</p>
+                                    <p class="en-opt">February 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-patrones-diseno-android.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Patrones de Diseño en Android</h4>
+                                    <h4 class="en-opt">Android Design Patterns Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Diciembre 2020</p>
+                                    <p class="en-opt">December 2020</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/bases_tecnicas_android.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Bases Técnicas de Android</h4>
+                                    <h4 class="en-opt">Android Technical Basics Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Noviembre 2020</p>
+                                    <p class="en-opt">November 2020</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-basico-kotlin.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Básico de Kotlin </h4>
+                                    <h4 class="en-opt">Kotlin Basic Couse</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Septiembre 2020</p>
+                                    <p class="en-opt">September 2020</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-diseno-interfaces-android-studio.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Diseño de Interfaces Android con Android Studio</h4>
+                                    <h4 class="en-opt">Android Interfaces Design with Android Studio</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Marzo 2020</p>
+                                    <p class="en-opt">March 2020</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/apps_moviles.png" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Programacion de Apps Moviles</h4>
+                                    <h4 class="en-opt">Movil Apps Programming</h4>
+                                    <p>Universidad Complutense de Madrid</p>
+                                    <p class="es-opt">Diciembre 2015</p>
+                                    <p class="en-opt">December 2015</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-gaming">Desarrollo de Video Juegos</h3>
+                            <h3 class="en-opt" id="area-title-gaming">Gaming Development</h3>
+                            <div class="grid-container" id="area-programacion">
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/mesa-de-trabajo.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introducción a la Creación de Personajes</h4>
+                                    <h4 class="en-opt">Introduction to Character Creation Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Junio 2023</p>
+                                    <p class="en-opt">June 2023</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-game-maker-studio-2-tecnicas-avanzadas-tu-juego_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Game Maker Studio 2: Técnicas avanzadas para tu juego
+                                    </h4>
+                                    <h4 class="en-opt">Game Maker Studio 2 Course: Advanced Techniques for Your Game
+                                    </h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Enero 2023</p>
+                                    <p class="en-opt">Jan 2023</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-game-maker-studio-2-creacion-personajes-videojuegos_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Game Maker Studio 2: Interacción y Ataque de los
+                                        Personajes</h4>
+                                    <h4 class="en-opt">Game Maker Studio 2 Course: Character Interaction and Attack</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Dic 2022</p>
+                                    <p class="en-opt">Dec 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-game-maker-studio-2-introduccion-creacion-videojuegos.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Game Maker Studio 2: Introducción a Creación de
+                                        Videojuegos</h4>
+                                    <h4 class="en-opt">Game Maker Studio 2 Course: Introduction to Video Game Creation
+                                    </h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Dic 2022</p>
+                                    <p class="en-opt">Dec 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-mkt-juegos-aas.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Estrategia de Marketing y Monetización en Videojuegos
+                                    </h4>
+                                    <h4 class="en-opt">Video Game Marketing and Monetization Strategy Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Oct 2022</p>
+                                    <p class="en-opt">Oct 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-c-videojuegos.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de C# para Videojuegos - Desarrollo con Unity</h4>
+                                    <h4 class="en-opt">C# Course for Video Games - Development with Unity</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Junio 2022</p>
+                                    <p class="en-opt">June 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/marketing_gaming.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Marketing y Negocios para Videojuegos</h4>
+                                    <h4 class="en-opt">Marketing and Business Course for Video Games</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Junio 2022</p>
+                                    <p class="en-opt">June 2022</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-introduccion-marketing-videojuegos.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introducción al Marketing para Videojuegos</h4>
+                                    <h4 class="en-opt">Introduction to Video Game Marketing Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Abril 2022</p>
+                                    <p class="en-opt">April 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-inversion-videojuegos-indies-creacion-pitch_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso para Conseguir Inversión para Videojuegos: Presentación de
+                                        Pitch</h4>
+                                    <h4 class="en-opt">Course to Get Investment for Video Games: Pitch Presentation</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Marzo 2022</p>
+                                    <p class="en-opt">March 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-inversion-videojuegos-indies-presentacion-pitch_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso para Conseguir Inversión para Videojuegos: Preparar un
+                                        Pitch Exitoso</h4>
+                                    <h4 class="en-opt">Course to Get Investment for Video Games: Prepare a Successful
+                                        Pitch</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Feb 2022</p>
+                                    <p class="en-opt">Feb 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/audio-videojuegos-diseno-sonoro_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">
+                                        Curso de Audio para Videojuegos: Fundamentos de Diseño Sonoro
+                                    </h4>
+                                    <h4 class="en-opt">Audio Course for Video Games: Fundamentals of Sound Design</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Feb 2022</p>
+                                    <p class="en-opt">Feb 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-planeacion-y-direccion-de-videojuegos-indies.avif"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Planeación y Dirección de Videojuegos Indies</h4>
+                                    <h4 class="en-opt">Indie Video Game Planning and Direction Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Noviembre 2021</p>
+                                    <p class="en-opt">November 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-direccion-videojuegos.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Dirección de Videojuegos</h4>
+                                    <h4 class="en-opt">Video Game Direction Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Octubre 2021</p>
+                                    <p class="en-opt">October 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-personajes-avanzado.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Escritura de Personajes y NPC en Videojuegos</h4>
+                                    <h4 class="en-opt">Character and NPC Writing Course in Video Games</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Sept. 2021</p>
+                                    <p class="en-opt">Sept. 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-profesional-diseno-videojuegos.avif"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Profesional de Diseño de Videojuegos</h4>
+                                    <h4 class="en-opt">Professional Video Game Design Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Agosto 2021</p>
+                                    <p class="en-opt">August 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/diseno_protipado.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Diseño y Prototipado de Personajes</h4>
+                                    <h4 class="en-opt">Character Design and Prototyping Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Agosto 2021</p>
+                                    <p class="en-opt">August 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/creacion_vide_games.avif" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Creación de Videojuegos</h4>
+                                    <h4 class="en-opt">Video Game Creation Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Julio 2021</p>
+                                    <p class="en-opt">July 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-diseno-videojuegos.avif" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Diseño de Videojuegos</h4>
+                                    <h4 class="en-opt">Video Game Design Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Julio 2021</p>
+                                    <p class="en-opt">July 2021</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge_introduccion_prudccion_videojuegos.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introduccion a la Produccion de Video Juegos </h4>
+                                    <h4 class="en-opt">Introduction to Video Game Production Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Julio 2021</p>
+                                    <p class="en-opt">July 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-Ai">AI</h3>
+                            <h3 class="en-opt" id="area-title-Ai">AI</h3>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/etica-manejo-datos-data-science-inteligencia-artifi.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Ética y Manejo de Datos para Data Science e Inteligencia
+                                        Artificial</h4>
+                                    <h4 class="en-opt">Prompt Engineering course with ChatGPT</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Sept 2023</p>
+                                    <p class="en-opt">Sept 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-landing-prompt-engineering-chatgpt_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Prompt Engineering con ChatGPT</h4>
+                                    <h4 class="en-opt">Prompt Engineering course with ChatGPT</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Sept 2023</p>
+                                    <p class="en-opt">Sept 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badgeintro-ia.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introducción a Inteligencia Artificial</h4>
+                                    <h4 class="en-opt">Introduction to Artificial Intelligence Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Junio 2023</p>
+                                    <p class="en-opt">June 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-introduccion-machine-learning.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Introducción a Machine Learning</h4>
+                                    <h4 class="en-opt">Introduction to Machine Learning</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Noviembre 2019</p>
+                                    <p class="en-opt">November 2019</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/deep_learning.png" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4>Neural Networks and Deep Learning</h4>
+                                    <p>Cousera</p>
+                                    <p class="es-opt">Septiembre 2018</p>
+                                    <p class="en-opt">September 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-blandas">Habilidades Blandas</h3>
+                            <h3 class="en-opt" id="area-title-soft">Soft Skills</h3>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-networking-efectivo_mesa-de-trabajo.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Networking Efectivo 2020</h4>
+                                    <h4 class="en-opt">Effective Networking Course 2020</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Nov. 2022</p>
+                                    <p class="en-opt">Nov. 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-inteligencia-emocional.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Inteligencia Emocional</h4>
+                                    <h4 class="en-opt">Emotional Intelligence Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Junio 2021</p>
+                                    <p class="en-opt">June 2021</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-in">Inglés</h3>
+                            <h3 class="en-opt" id="area-title-en">English</h3>
+                            <div class="level-container">
+                                <h4 class="es-opt level-text">Nivel Alcanzado: B2</h4>
+                                <h4 class="en-opt level-text">Reached Level: B2</h4>
+                            </div>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-ingles-intermedio-b1-conectores-y-preferencias_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Inglés Intermedio B1: Descripción de Eventos y
+                                        Preferencias</h4>
+                                    <h4 class="en-opt">Intermediate English Course B1: Description of Events and
+                                        Preferences</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Mayo 2023</p>
+                                    <p class="en-opt">Mayo 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-ingles-basico-trabajo_badge.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Vocabulario en Inglés para el Trabajo</h4>
+                                    <h4 class="en-opt">Vocabulary Course in English for Work</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Marzo 2023</p>
+                                    <p class="en-opt">March 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/intermediate_vocabulary_expressions-badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Intermedio de Vocabulario y Expresiones en Inglés</h4>
+                                    <h4 class="en-opt">Intermediate Vocabulary and Expressions Course in English</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Marzo 2023</p>
+                                    <p class="en-opt">March 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas_intermediate-pronunciation_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Intermedio de Pronunciación en Inglés</h4>
+                                    <h4 class="en-opt">Intermediate English Pronunciation Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Feb 2023</p>
+                                    <p class="en-opt">Feb 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-ingles-viajes-audiocurso.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Audio Curso de Inglés para Viajes</h4>
+                                    <h4 class="en-opt">Audio English Course for Travel</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Nov. 2022</p>
+                                    <p class="en-opt">Nov. 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-ingles-basico-networking.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Inglés para Networking (2021)</h4>
+                                    <h4 class="en-opt">English Course for Networking (2021)</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Nov. 2022</p>
+                                    <p class="en-opt">Nov. 2022</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/plantilla-piezas-cursos-en_story_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Básico de Pronunciación en Inglés</h4>
+                                    <h4 class="en-opt">Basic English Pronunciation Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Oct. 2022</p>
+                                    <p class="en-opt">Oct. 2022</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/ingles-practico-pronunciacion_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso pre-intermedio de Pronunciacion en Ingles</h4>
+                                    <h4 class="en-opt">Pre-intermediate English Pronunciation Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Sep. 2022</p>
+                                    <p class="en-opt">Sep. 2022</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-jp">Japonés</h3>
+                            <h3 class="en-opt" id="area-title-jp">Japanese</h3>
+                            <div class="level-container">
+                                <h4 class="es-opt level-text">Nivel Alcanzado: A1</h4>
+                                <h4 class="en-opt level-text">Reached Level: A1</h4>
+                            </div>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/logo_colombo.png" alt="Japanese icon">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Vacacional</h4>
+                                    <h4 class="en-opt">Vacational</h4>
+                                    <p>Educación Colombo Japonesa</p>
+                                    <p class="es-opt">Noviembre 2023</p>
+                                    <p class="en-opt">November 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/nihongo_icon.png" alt="Duolingo icon">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Duolingo</h4>
+                                    <h4 class="en-opt">Duolingo</h4>
+                                    <p>Duolingo</p>
+                                    <p class="es-opt">Julio 2025</p>
+                                    <p class="en-opt">July 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-kr">Coreano</h3>
+                            <h3 class="en-opt" id="area-title-kr">Korean</h3>
+                            <div class="level-container">
+                                <h4 class="es-opt level-text">Nivel Alcanzado: A1</h4>
+                                <h4 class="en-opt level-text">Reached Level: A1</h4>
+                            </div>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/instituto-sejong-bogota-logo.png" alt="Korean icon">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Coreano Básico</h4>
+                                    <h4 class="en-opt">Basic Korean Course</h4>
+                                    <p>Instituto Sejong</p>
+                                    <p class="es-opt">Junio 2025</p>
+                                    <p class="en-opt">June 2025</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/hangul_icon.png" alt="Duolingo icon">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Duolingo</h4>
+                                    <h4 class="en-opt">Duolingo</h4>
+                                    <p>Duolingo</p>
+                                    <p class="es-opt">Julio 2025</p>
+                                    <p class="en-opt">July 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-in">Ciencias Espaciales</h3>
+                            <h3 class="en-opt" id="area-title-en">Space Sciences</h3>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/iot-telecomunicaciones-lora-lorawan-badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de IoT: Telecomunicaciones con LoRa</h4>
+                                    <h4 class="en-opt">IoT Course: Telecommunications with LoRa</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Junio 2023</p>
+                                    <p class="en-opt">June 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/english-course-for-sales-and-business-badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de IoT: Programación de Microcontroladores ESP32</h4>
+                                    <h4 class="en-opt">IoT Course: ESP32 Microcontroller Programming</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Mayo 2023</p>
+                                    <p class="en-opt">May 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/piezas-space-program-fabricar-satelite-sin-ser-nasa_badge.webp"
+                                        alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Platzi Space Program: Diseño y Fabricación de Satélites</h4>
+                                    <h4 class="en-opt">Platzi Space Program: Satellite Design and Manufacturing</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Marzo 2023</p>
+                                    <p class="en-opt">March 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-astroquimica.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Astroquímica: Cómo se Compone el Universo</h4>
+                                    <h4 class="en-opt">Astrochemistry Course: How the Universe is Made Up</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Feb 2023</p>
+                                    <p class="en-opt">Feb 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-cosmologia.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Cosmología: Origen y Evolución del Universo</h4>
+                                    <h4 class="en-opt">Cosmology Course: Origin and Evolution of the Universe</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Enero 2023</p>
+                                    <p class="en-opt">Jan 2023</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badges-astrobiologia.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Astrobiología</h4>
+                                    <h4 class="en-opt">Astrobiology Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Dic. 2022</p>
+                                    <p class="en-opt">Dec. 2022</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-subclass">
+                        <div class="area">
+                            <h3 class="es-opt" id="area-title-misc">Miscelaneos</h3>
+                            <h3 class="en-opt" id="area-title-misc">Miscellaneous</h3>
+                            <div class="grid-container" id="area-programacion">
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-terminal.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso de Introducción a la Terminal y Línea de Comandos</h4>
+                                    <h4 class="en-opt">Introduction to Terminal and Command Line Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Feb 2022</p>
+                                    <p class="en-opt">Feb 2022</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/badge-github.webp" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Curso Profesional de Git y GitHub</h4>
+                                    <h4 class="en-opt">Git and Github Professional Course</h4>
+                                    <p>Platzi</p>
+                                    <p class="es-opt">Noviembre 2020</p>
+                                    <p class="en-opt">November 2020</p>
+                                </div>
+
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/mantenimiento.png" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Informatica: Mantenimiento de Computadores</h4>
+                                    <h4 class="en-opt">Computer Maintenance</h4>
+                                    <p>SENA</p>
+                                    <p class="es-opt">Septiembre 2009</p>
+                                    <p class="en-opt">September 2009</p>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="src/skills_icons/pneumatics-icon.jpg" alt="GIT image">
+                                </div>
+                                <div class="grid-item" id="studieitem">
+                                    <h4 class="es-opt">Neumatica Básica</h4>
+                                    <h4 class="en-opt">Basic Pneumatics</h4>
+                                    <p>SENA</p>
+                                    <p class="es-opt">Junio 2006</p>
+                                    <p class="en-opt">June 2006</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Estudios fin  -->
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects -->
+
+    <section class="hero projects" id="projects">
+        <div class="hero-body">
+            <div class="container projects-wrapper is-flex f-d-col center-x">
+                <h1 class="title is-1 has-text-centered en-opt">Projects and Developments</h1>
+                <h1 class="title is-1 has-text-centered es-opt">Proyectos y Desarrollos</h1>
+                <div class="all-projects is-flex center-x center-y f-d-col">
+                    <div class="container projects">
+                        <div class="column project has-text-centered en-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Spia GPS"
+                                data-desc="Spia Gps is a Colombian company incharge of vehicle tracking; 
+                            there my contributions was the hardware validation of the V3 and V4 units and the firmware development from those"
+                                data-tools="C, C++, Quectel Modules, Kinetis IDE and Microchips">
+                                <img class="project" src="src/images/projects/spia_image.PNG" alt="spia projects image">
+                            </div>
+                            <a class="no-deco" target="_blank">
+                                Spia GPS
+                            </a>
+                        </div>
+                        <div class="column project has-text-centered es-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Spia GPS"
+                                data-desc="Spia Gps es una empresa Colombiana encargada de monitoreo vehicular; 
+                            alli mis aportes fueron la validacion del hardware de los equipos V3 y V4 y el desarrollo del firmware de las mismas."
+                                data-tools="C, C++, Quectel Modules, Kinetis IDE y Microcontroladores">
+                                <img class="project" src="src/images/projects/spia_image.PNG" alt="spia projects image">
+                            </div>
+                            <a class="no-deco" target="_blank">
+                                Spia GPS
+                            </a>
+                        </div>
+
+                        <div class="column project has-text-centered en-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Vango Driver"
+                                data-link='https://play.google.com/store/apps/details?id=com.ionverse.vango.conductor'
+                                data-desc="Vango is a special transport company, they performs preprogrammed routes to universities,
+                            i am part of the team that develops and maintains the application for drivers"
+                                data-tools="Java, Kotlin, Google Services, Web service">
+                                <img class="project" src="src/images/projects/vango_app.PNG" alt="vango app image">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.ionverse.vango.conductor"
+                                class="no-deco" target="_blank">
+                                Vango Driver
+                            </a>
+                        </div>
+                        <div class="column project has-text-centered es-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Vango Conductor"
+                                data-link='https://play.google.com/store/apps/details?id=com.ionverse.vango.conductor'
+                                data-desc="Vango es una empresa de transporte especial que realiza rutas preprogramadas a instituciones educativas,
+                             hago parte del equipo que desarrolla y mantiene la aplicacion para los conductores; app disponible en Play Store"
+                                data-tools="Java, Kotlin, Google Services, Web service">
+                                <img class="project" src="src/images/projects/vango_app.PNG" alt="vango app image">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.ionverse.vango.conductor"
+                                class="no-deco" target="_blank">
+                                Vango Conductor
+                            </a>
+                        </div>
+
+                        <div class="hide-t">
+                            <div class="column project has-text-centered en-opt">
+                                <div class="img-container" onclick="showProject(this)" data-title="Taxitaximetro"
+                                    data-link='https://play.google.com/store/apps/details?id=com.taximetro.spia'
+                                    data-desc="Taxitaximetro is an electronic payment platform for cab services, with digital taximeter, dataphone and tracking. My tasks here were the implementation of the grafic UI in the app, implementation of tracking and the pircing service."
+                                    data-tools="Java, Kotlin, Google Services, Web service, Here Technologies">
+                                    <img class="project" src="src/images/projects/taxitaximetro_app.PNG"
+                                        alt="taxitaximetro app image">
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.taximetro.spia"
+                                    class="no-deco" target="_blank">
+                                    Taxitaximetro
+                                </a>
+                            </div>
+                            <div class="column project has-text-centered es-opt">
+                                <div class="img-container" onclick="showProject(this)" data-title="Taxitaximetro"
+                                    data-link='https://play.google.com/store/apps/details?id=com.taximetro.spia'
+                                    data-desc="Taxitaximetro es una plataforma electronica de pagos para servicios de taxi, cuenta con taximetro digital , datafono y tracking. Mis tareas alli fueron la implemetacion de interfaz grafica en la app, implementacion del tracking y el servicio tarificado."
+                                    data-tools="Java, Kotlin, Google Services, Web service, Here Technologies">
+                                    <img class="project" src="src/images/projects/taxitaximetro_app.PNG"
+                                        alt="taxitaximetro app image">
+                                </div>
+                                <a href="https://play.google.com/store/apps/details?id=com.taximetro.spia"
+                                    class="no-deco" target="_blank">
+                                    Taxitaximetro
+                                </a>
+                            </div>
+                        </div>
+                        <div class="see-more-projects is-flex center-x">
+                            <a class="button is-rounded projects-more-btn no-deco" onclick="seeMoreProjects()">
+                                See More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="container more-projects">
+                        <div class="column project has-text-centered en-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Taxis Libres User App"
+                                data-link='https://play.google.com/store/apps/details?id=com.cotech.taxislibres'
+                                data-desc="Taxis Libres User is an app that allows us to book a taxi service, allows know the cost previusly, choose the type of service,
+                            many payment methods, have a 24/7 service center and have the backing of the largest company in Colombia.
+                            My contribution is the design and function application for some screens of the app."
+                                data-tools="Java, Kotlin, Google Services, Web service, Jetpack Compose, Clean Architecture">
+                                <img class="project" src="src/images/projects/taxis_libres_usuario.PNG"
+                                    alt="taxis libres usuario app image">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.cotech.taxislibres"
+                                class="no-deco" target="_blank">
+                                Taxis Libres User App
+                            </a>
+                        </div>
+                        <div class="column project has-text-centered es-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="App Taxis Libres Usuario"
+                                data-link='https://play.google.com/store/apps/details?id=com.cotech.taxislibres'
+                                data-desc="Taxis Libres Usuario es una app que permite solicitar un servicio de taxi, permite conocer la tarifa del servicio de forma previa, seleccionar el tipo de servicio, 
+                            tiene diferentes medios de pago disponibles, cuenta con centreo de ayuda 24/7 y el respaldo de la empresa mas grande en Colombia. 
+                            Mi contribucion es la aplicacion del diseño y funciones en diferentes pantallas de la app."
+                                data-tools="Java, Kotlin, Google Services, Web service, Jetpack Compose, Clean Architecture">
+                                <img class="project" src="src/images/projects/taxis_libres_usuario.PNG"
+                                    alt="taxis libres usuario app imagen">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.cotech.taxislibres"
+                                class="no-deco" target="_blank">
+                                App Taxis Libres Usuario
+                            </a>
+                        </div>
+
+                        <div class="column project has-text-centered en-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Web Portfolio"
+                                data-link='https://marceladj.github.io/'
+                                data-desc="Compilation of my skills and Projects as an engineer and the obtained professional experience "
+                                data-tools="Html, CSS, Js">
+                                <img class="project" src="src/images/projects/marceladj_web.PNG"
+                                    alt="Personal Blog image">
+                            </div>
+                            <a href="https://marceladj.github.io/" class="no-deco" target="_blank">
+                                Web Portfolio
+                            </a>
+                        </div>
+                        <div class="column project has-text-centered es-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Portafolio Web"
+                                data-link='https://marceladj.github.io/'
+                                data-desc="Recoplilacion de mis habilidades y proyectos como ingeniera y la experiencia profesional obtenida"
+                                data-tools="Html, CSS, Js">
+                                <img class="project" src="src/images/projects/marceladj_web.PNG"
+                                    alt="Blog Personal imagen">
+                            </div>
+                            <a href="https://marceladj.github.io/" class="no-deco" target="_blank">
+                                Portafolio Web
+                            </a>
+                        </div>
+
+                        <div class="column project has-text-centered en-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Bimoney App"
+                                data-link='https://appgallery.cloud.huawei.com/ag/n/app/C103843087?locale=es_US&source=appshare&subsource=C103843087'
+                                data-desc="Virtual Wallet for taxiDrivers, allows diferents payment methods for services for the guild. I was in charge of the app migration to Hms Core, now is available in App Gallery."
+                                data-tools="Java, Kotlin, Google Services, Web service, Hms Core, Huawei Kits">
+                                <img class="project" src="src/images/projects/bimoney_app.PNG" alt="bimoney app image">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.modipay.bimoney" class="no-deco"
+                                target="_blank">
+                                Bimoney App
+                            </a>
+                        </div>
+                        <div class="column project has-text-centered es-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Bimoney App"
+                                data-link='https://appgallery.cloud.huawei.com/ag/n/app/C103843087?locale=es_US&source=appshare&subsource=C103843087'
+                                data-desc="Billetera virtual para taxistas, permite el pago de diferentes servicios para el gremio. Estuve a cargo de la migracion de la app a Hsm Core dejandola disponible en App Gallery y me encargo de su mentenimiento."
+                                data-tools="Java, Kotlin, Google Services, Web service, Hms Core, Huawei Kits">
+                                <img class="project" src="src/images/projects/bimoney_app.PNG" alt="bimoney app imagen">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.modipay.bimoney" class="no-deco"
+                                target="_blank">
+                                Bimoney App
+                            </a>
+                        </div>
+
+                        <div class="column project has-text-centered en-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Beex"
+                                data-link='https://appgallery.huawei.com/#/app/C104418823'
+                                data-desc="Beex is an app focused in the interaction between companies, taxidrivers and users, it provides bussines opportunities. It was made as an MVP in the Taxis Libres 2021 Hackaton"
+                                data-tools="Kotlin, Google Services, Hms Core, Huawei Kits">
+                                <img class="project" src="src/images/projects/beex_app.PNG" alt="beex app image">
+                            </div>
+                            <a href="https://appgallery.huawei.com/#/app/C104418823" class="no-deco" target="_blank">
+                                Beex
+                            </a>
+                        </div>
+                        <div class="column project has-text-centered es-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Beex"
+                                data-link='https://appgallery.huawei.com/#/app/C104418823'
+                                data-desc="Beex es una app orientada a la interaccion entre empresas, conductores y viajeros que brinda oportunidades de negocio. Ésta fue elaborada como producto mínimo viable para la Hackaton de Taxis Libres 2021. "
+                                data-tools="Kotlin, Google Services, Hms Core, Huawei Kits">
+                                <img class="project" src="src/images/projects/beex_app.PNG" alt="beex app imagen">
+                            </div>
+                            <a href="https://appgallery.huawei.com/#/app/C104418823" class="no-deco" target="_blank">
+                                Beex
+                            </a>
+                        </div>
+
+                        <div class="column project has-text-centered en-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="Taxis Libres Driver App"
+                                data-link='https://play.google.com/store/apps/details?id=com.cotech.taxislibres.conductor'
+                                data-desc="Taxis Libres Driver is an app that allows drivers to accept service requests from users, manage their work schedule, view earnings and access exclusive benefits. Drivers can receive requests from the user app, IVR system or WhatsApp integration."
+                                data-tools="Java, Kotlin, Google Services, Web service, Jetpack Compose, Clean Architecture">
+                                <img class="project" src="src/images/projects/TLC.png"
+                                    alt="taxis libres driver app image">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.cotech.taxislibres.conductor"
+                                class="no-deco" target="_blank">
+                                Taxis Libres Driver App
+                            </a>
+                        </div>
+                        <div class="column project has-text-centered es-opt">
+                            <div class="img-container" onclick="showProject(this)" data-title="App Taxis Libres Conductor"
+                                data-link='https://play.google.com/store/apps/details?id=com.cotech.taxislibres.conductor'
+                                data-desc="Taxis Libres Conductor es una aplicación que permite a los conductores aceptar solicitudes de servicio de los usuarios, gestionar su horario de trabajo, visualizar ganancias y acceder a beneficios exclusivos. Los conductores pueden recibir solicitudes desde la app de usuario, sistema IVR o integración con WhatsApp."
+                                data-tools="Java, Kotlin, Google Services, Web service, Jetpack Compose, Clean Architecture">
+                                <img class="project" src="src/images/projects/TLC.png"
+                                    alt="taxis libres conductor app imagen">
+                            </div>
+                            <a href="https://play.google.com/store/apps/details?id=com.cotech.taxislibres.conductor"
+                                class="no-deco" target="_blank">
+                                App Taxis Libres Conductor
+                            </a>
+                        </div>
+
+
+
+
+
+
+
+
+
+                        <div class="column project has-text-centered">
+                        </div>
+
+                        <!-- Add more... -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="project-popup" class="hero project d-none">
+            <div class="hero-body is-flex center-y">
+                <a class="close project" onclick="closeProject()">&times;</a>
+                <div class="container">
+                    <div class="columns">
+                        <div class="column is-two-thirds is-flex center-y">
+                            <a id="project-link" target="_blank">
+                                <img class="img-project" id="project-img">
+                            </a>
+                        </div>
+                        <div class="column project-desc">
+                            <h4 class="title is-4" id="project-name"></h4>
+                            <div class="characteristics">
+                                <div class="container">
+                                    <h5 class="subtitle is-5 en-opt">Technologies</h5>
+                                    <h5 class="subtitle is-5 es-opt">Tecnologías</h5>
+                                    <ul class="lis" id="project-list">
+                                    </ul>
+                                </div>
+
+                                <div class="container">
+                                    <h5 class="subtitle is-5 en-opt">About the Project?</h5>
+                                    <h5 class="subtitle is-5 es-opt">¿Acerca del Proyecto?</h5>
+                                    <h6 class="subtitle is-6" id="project-desc"></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="hero hero-contact is-fullheight stick" id="contact">
+        <div class="hero-body is-flex f-d-col">
+            <div class="container hero-contact-container is-flex f-d-col center-y center-x">
+                <div class="hero-contact-content is-flex center-y f-d-col text">
+                    <h2 class="title is-2 has-text-white has-text-centered en-opt">
+                        Do you want to get in touch?
+                    </h2>
+                    <h2 class="title is-2 has-text-white has-text-centered es-opt">
+                        ¿Quieres ponerte en Contacto?
+                    </h2>
+                    <h4 class="subtitle is-4 has-text-white has-text-centered is-spaced en-opt">
+                        Find me on LinkedIn or GitHub
+                    </h4>
+                    <h4 class="subtitle is-4 has-text-white has-text-centered is-spaced es-opt">
+                        Encuentrame en LinkedIn o en GitHub
+                    </h4>
+                </div>
+                <div class="social-media">
+                    <ul class="col is-flex center-x f-wrap">
+                        <li class="li-smedia">
+                            <a href="https://www.linkedin.com/in/marcela-dueñas-a183371a1" target="_blank"
+                                rel="noopener noreferrer">
+                                <i class="fab fa-linkedin en-opt" title="Follow me on LinkedIn"></i>
+                                <i class="fab fa-linkedin es-opt" title="Sígueme en LinkedIn"></i>
+                            </a>
+                        </li>
+                        <li class="li-smedia">
+                            <a href="https://github.com/MarcelaDJ" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github en-opt" title="Follow me on GitHub"></i>
+                                <i class="fab fa-github es-opt" title="Sígueme en GitHub"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-footer">
+                <p class="es-opt">Basado en la pagina web de MistyBlunch, editado por Miauchis</p>
+                <p class="en-opt">Based on MistyBlunch web page, edited by Miauchis</p>
+                <a class="freepick es-opt" href='https://www.freepik.es/vectores/fondo'>Vectores de Fondo:
+                    creados por pikisuperstar<br>www.freepik.es</a>
+                <a class="freepick en-opt" href='https://www.freepik.es/vectores/fondo'>Background Vectors:
+                    created by pikisuperstar<br>www.freepik.es</a>
+                <p class="freepick">Last Update: 23 Jul 2025</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="js/index.js"></script>
+
+</html>
