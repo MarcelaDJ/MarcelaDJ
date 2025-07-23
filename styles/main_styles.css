@@ -336,6 +336,12 @@ a:hover {
     align-items: center;
     margin: 50px;
 }
+.level-container {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: -10px;
+}
 
 .grid-item img {
     padding-left: 50px;
@@ -351,7 +357,6 @@ a:hover {
     margin-left: 60px;
     font-size: 1.082rem;
 }
-
 
 /* Projects
 /*********************************/
