@@ -374,6 +374,28 @@ a:hover {
 .container.more-projects {
     display: grid;
     grid-template-columns: 320px 320px 320px;
+    justify-content: center;
+}
+
+.project-category {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.category-header {
+    margin: 2rem 0 1rem;
+}
+
+.category-placeholder {
+    text-align: center;
+    color: var(--mightygray);
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+}
+
+.container.projects.single-project {
+    grid-template-columns: 320px 320px;
+    justify-content: center;
 }
 
 .column.project {
@@ -641,6 +663,9 @@ a:hover {
     .container.more-projects {
         grid-template-columns: auto auto;
     }
+    .container.projects.single-project {
+        grid-template-columns: auto;
+    }
     /* Helpers 
   /*********************************/
     .hide-t {
@@ -681,6 +706,9 @@ a:hover {
   /*********************************/
     .container.projects,
     .container.more-projects {
+        grid-template-columns: auto;
+    }
+    .container.projects.single-project {
         grid-template-columns: auto;
     }
     .container.more-projects {
